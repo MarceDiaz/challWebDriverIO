@@ -10,21 +10,24 @@ Prerequisites
 
 Install components
 ------------------
-On Windows run:
-npm install selenium-webdriver
-npm install selenium-standalone@latest -g
+On Mac run:
+mkdir webdriverio-test && cd webdriverio-test
+
+checkout project from: 
+https://github.com/MarceDiaz/challWebDriverIO.git
+
+On folder webdriverio-test:
+curl -O http://selenium-release.storage.googleapis.com/3.0/selenium-server-standalone-3.0.1.jar
+curl -L https://github.com/mozilla/geckodriver/releases/download/v0.11.1/geckodriver-v0.11.1-macos.tar.gz | tar xz
+npm install webdriverio
 
 
-npm install --save-dev gulp
-npm install --global gulp-cli
-
-
-npm install --save-dev connect serve-static
-
-npm install --global webdriverio
 
 To Run:
 ------------------
-In project path execute: 
- ./node_modules/.bin/wdio wdio.conf.js
+In console start server running:
+java -jar -Dwebdriver.gecko.driver=./geckodriver selenium-server-standalone-3.0.1.jar
+
+In project path and other window console execute: 
+./node_modules/.bin/wdio wdio.conf.js
  
