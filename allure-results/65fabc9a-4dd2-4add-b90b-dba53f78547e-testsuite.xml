@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1501688528518' stop='1501688538539'>
+    <name>webdriver.io page</name>
+    <title>webdriver.io page</title>
+    <test-cases>
+        <test-case start='1501688528519' status='broken' stop='1501688538538'>
+            <name>Test to navigate and check elements</name>
+            <title>Test to navigate and check elements</title>
+            <labels/>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":5,"browserName":"firefox"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/marcelodiaz/webdriverio-test/test/specs/test2.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1501688528532' status='broken' stop='1501688538538'>
+                    <name>POST /wd/hub/session/806f608e-0d50-4443-86d3-53f08e87a7b7/url</name>
+                    <title>POST /wd/hub/session/806f608e-0d50-4443-86d3-53f08e87a7b7/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b3dec431-d42d-4f68-958b-2996ed7dcb68-attachment.json' type='application/json' size='37'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.</message>
+                <stack-trace>Error: Timeout of 10000ms exceeded. Try to reduce the run time or increase your timeout for test specs (http://webdriver.io/guide/testrunner/timeouts.html); if returning a Promise, ensure it resolves.
+                    at Timeout.&lt;anonymous> (/Users/marcelodiaz/webdriverio-test/node_modules/mocha/lib/runnable.js:232:19)
+                    at ontimeout (timers.js:386:14)
+                    at tryOnTimeout (timers.js:250:5)
+                    at Timer.listOnTimeout (timers.js:214:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,10 @@
+{
+    "message": "Unknown wait type: pageLoad\nBuild info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:48:19 -0700'\nSystem info: host: 'UY-IT00269.local', ip: '192.168.0.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_152-ea'\nDriver info: driver.version: unknown",
+    "type": "RuntimeError",
+    "seleniumStack": {
+        "status": 13,
+        "type": "UnknownError",
+        "message": "An unknown server-side error occurred while processing the command.",
+        "orgStatusMessage": "Unknown wait type: pageLoad\nBuild info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:48:19 -0700'\nSystem info: host: 'UY-IT00269.local', ip: '192.168.0.100', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_152-ea'\nDriver info: driver.version: unknown"
+    }
+}
