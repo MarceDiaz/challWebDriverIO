@@ -57,3 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
+#Drivers
+geckodriver
+selenium-server-standalone-3.0.1.jar
